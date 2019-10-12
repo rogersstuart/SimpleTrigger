@@ -1,12 +1,12 @@
-byte left_button = A1;
-byte right_button = A2;
-byte bottom_button = A0;
+#define left_button A1
+#define right_button A2
+#define bottom_button A0
 
-byte left_led = 10;
-byte right_led = 11;
+#define left_led 10
+#define right_led 11
 
-byte output_1 = 3; 
-byte output_2 = 2;
+#define output_1 3 
+#define output_2 2
 
 bool output_1_active = false;
 bool output_2_active = true;
